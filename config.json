@@ -1,7 +1,7 @@
 {
   "logPrefix": "",
   "listenPort": "8080",
-  "proxyToHost": "localhost",
-  "proxyToPort": "9080",
+  "proxyToHost": "ca-bc-gov-main.collector.snplow.net",
+  "proxyToPort": "80",
   "accessLogging": "Y"
 }
