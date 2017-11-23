@@ -16,5 +16,5 @@ RUN chown -R app:0 /app && chmod -R 770 /app
 RUN apk del --purge alpine-sdk python libffi libffi-dev  
 
 USER app
-EXPOSE 3000
+EXPOSE 8080
 CMD node server.js --configPath=config.json
