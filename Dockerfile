@@ -1,8 +1,8 @@
-FROM alpine:latest
+FROM alpine:edge
 MAINTAINER leo.lou@gov.bc.ca
 
 RUN apk update \
-  && apk add alpine-sdk nodejs python ibffi libffi-dev \
+  && apk add alpine-sdk nodejs python libffi libffi-dev \
   && git config --global url.https://github.com/.insteadOf git://github.com/ 
 
 RUN mkdir -p /app
